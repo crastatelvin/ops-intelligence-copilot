@@ -78,8 +78,8 @@ The backend is built with **FastAPI**, holds the uploaded dataframe in memory fo
 <img width="1361" height="639" alt="{83F067E6-244D-4728-A7E3-3DB3B9C1F2BC}" src="https://github.com/user-attachments/assets/5fc26acc-ee0a-432c-a17e-067dafa1ba05" />
 <br/>
 <br/>
----
-## ✨ Features
+
+✨ Features
 
 | Feature | Description |
 |---|---|

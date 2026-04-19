@@ -57,7 +57,7 @@ The backend is built with **FastAPI**, holds the uploaded dataframe in memory fo
 
 ---
 
-## Application Preview
+## 💻 Application Preview
 <br/>
 <br/>
 <img width="1365" height="643" alt="{82DD1B1B-6CB3-492D-9A39-081EFE80EBE9}" src="https://github.com/user-attachments/assets/1a606b34-06b4-483f-b568-9190da410f67" />
@@ -79,7 +79,7 @@ The backend is built with **FastAPI**, holds the uploaded dataframe in memory fo
 <br/>
 <br/>
 
-✨ Features
+## ✨ Features
 
 | Feature | Description |
 |---|---|

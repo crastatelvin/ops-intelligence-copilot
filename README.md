@@ -57,6 +57,28 @@ The backend is built with **FastAPI**, holds the uploaded dataframe in memory fo
 
 ---
 
+## Application Preview
+<br/>
+<br/>
+<img width="1365" height="643" alt="{82DD1B1B-6CB3-492D-9A39-081EFE80EBE9}" src="https://github.com/user-attachments/assets/1a606b34-06b4-483f-b568-9190da410f67" />
+<br/>
+<br/>
+<img width="1366" height="640" alt="{35E76ADA-0EA2-4D95-8B34-658FE56A2945}" src="https://github.com/user-attachments/assets/2237e21e-532f-4c22-add4-887f74867906" />
+<br/>
+<br/>
+<img width="1366" height="642" alt="{576061B8-32EF-4D9E-8E34-FB7D7137E7AA}" src="https://github.com/user-attachments/assets/b6ed4243-e554-4b72-b62d-1d779d78f5d9" />
+<br/>
+<br/>
+<img width="1366" height="639" alt="{21EFAE31-4DAE-490F-86FD-AE6DC1A60BC4}" src="https://github.com/user-attachments/assets/b2a68731-7052-45bf-acbb-aba4c757bb1c" />
+<br/>
+<br/>
+<img width="1366" height="636" alt="{36D5E71C-D97B-4C8D-AE96-E63EB77B8FC4}" src="https://github.com/user-attachments/assets/d914c724-becb-4bbc-9906-f1aa541afcdd" />
+<br/>
+<br/>
+<img width="1361" height="639" alt="{83F067E6-244D-4728-A7E3-3DB3B9C1F2BC}" src="https://github.com/user-attachments/assets/5fc26acc-ee0a-432c-a17e-067dafa1ba05" />
+<br/>
+<br/>
+---
 ## ✨ Features
 
 | Feature | Description |
@@ -87,7 +109,7 @@ The backend is built with **FastAPI**, holds the uploaded dataframe in memory fo
 └────────┼────────────────┼─────────────────┼──────────┘
          │  POST /upload  │                 │ POST /query
 ┌────────▼────────────────▼─────────────────▼──────────┐
-│              FastAPI Backend (main.py)                │
+│              FastAPI Backend (main.py)               │
 │                                                      │
 │  ┌─────────────────────────────────────────────────┐ │
 │  │            data_service.py                      │ │
@@ -101,10 +123,10 @@ The backend is built with **FastAPI**, holds the uploaded dataframe in memory fo
 │  │   Context: columns + sample + stats summary     │ │
 │  └─────────────────────────────────────────────────┘ │
 │                                                      │
-│  ┌──────────────────┐                               │
-│  │  df_store (dict) │  ← In-memory DataFrame store  │
-│  │  "current" → df  │                               │
-│  └──────────────────┘                               │
+│  ┌──────────────────┐                                │
+│  │  df_store (dict) │  ← In-memory DataFrame store   │
+│  │  "current" → df  │                                │
+│  └──────────────────┘                                │
 └──────────────────────────────────────────────────────┘
 ```
 

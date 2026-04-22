@@ -359,6 +359,10 @@ To point the frontend at a deployed backend, set `REACT_APP_API_URL` in a `.env`
 
 ---
 
+## License
+
+This project is licensed under the MIT License. See [LICENSE](./LICENSE).
+
 Made with ❤️ by [Crasta Telvin](https://github.com/crastatelvin)
 
 ⭐ Star this repo if you find it useful!

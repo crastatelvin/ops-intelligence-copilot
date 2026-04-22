@@ -53,6 +53,10 @@ Users can:
 - Ask **plain-English questions** about their data and receive AI-powered answers via Google Gemini Flash
 - Reset and re-upload a new file anytime from the dashboard
 
+## License
+
+This project is licensed under the MIT License. See [LICENSE](./LICENSE).
+
 The backend is built with **FastAPI**, holds the uploaded dataframe in memory for the session, and passes data context (column names, statistical summary, and a 5-row sample) to Gemini for accurate, grounded responses.
 
 ---
@@ -355,20 +359,8 @@ To point the frontend at a deployed backend, set `REACT_APP_API_URL` in a `.env`
 
 ---
 
-## 📜 License
-
-Licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-
 Made with ❤️ by [Crasta Telvin](https://github.com/crastatelvin)
 
 ⭐ Star this repo if you find it useful!
 
 </div>
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](./LICENSE).
